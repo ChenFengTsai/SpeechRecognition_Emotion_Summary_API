@@ -13,7 +13,7 @@ Python, Tensorflow, BERT, flask, HTML
 ## Steps to Reproduce
 1. Install the dependency
 ```
-pip install requirement.txt
+pip install requirements.txt
 ```
 2. Clone the repository
 ```
