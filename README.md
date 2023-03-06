@@ -9,7 +9,7 @@
 Python, Tensorflow, BERT, flask, HTML
 
 ![alt text]
-(./Application_overview.png)
+(/Application_overview.png)
 ## Steps to use
 1. Install the dependency
 ```
