@@ -8,8 +8,7 @@
 ## Tools
 Python, Tensorflow, BERT, flask, HTML
 
-![alt text]
-(https://github.com/ChenFengTsai/Speech_Emotion_Summary_API/blob/691cc5929a167a19e69640d950f051362c4f7fd1/Application_overview.png)
+![alt text](https://github.com/ChenFengTsai/Speech_Emotion_Summary_API/blob/691cc5929a167a19e69640d950f051362c4f7fd1/Application_overview.png)
 
 ## Steps to use
 1. Install the dependency
