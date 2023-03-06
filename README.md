@@ -10,16 +10,16 @@ Python, Tensorflow, BERT, flask, HTML
 
 ![alt text](https://github.com/ChenFengTsai/Speech_Emotion_Summary_API/blob/691cc5929a167a19e69640d950f051362c4f7fd1/Application_overview.png)
 
-## Steps to use
+## Steps to reproduce
 1. Install the dependency
 ```
 pip install requirement.txt
 ```
-2. clone the repository
+2. Clone the repository
 ```
 git clone https://github.com/ChenFengTsai/Speech_Emotion_Summary_API.git
 ```
-3. run the application
+3. Run the application
 ```
 python wsgi.py
 ```
