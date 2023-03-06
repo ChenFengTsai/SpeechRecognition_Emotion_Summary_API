@@ -8,6 +8,21 @@
 ## Tools
 Python, Tensorflow, BERT, flask, HTML
 
+
+## Steps to use
+1. Install the dependency
+```
+pip install requirement.txt
+```
+2. clone the repository
+```
+git clone https://github.com/ChenFengTsai/Speech_Emotion_Summary_API.git
+```
+3. run the application
+```
+python wsgi.py
+```
+
 ## Potential Future Usage
 * More real-world context for generativeAI to learn (scientists concern that good learning written material is going to be depleted in near future, how we can solve this problem?)
 * Distinguish good learning material like tutorial video by analyzing the summary of material
@@ -15,8 +30,3 @@ Python, Tensorflow, BERT, flask, HTML
 * Social justice to learn opinion from minority group if they do not have written material only speech or talk
 * Determine whether the speech is biased (racist, non pc) or not with more dataset
 * Replace reporter/journalist since sometimes they give biased information or comment
-
-```
-pip install requirement.txt
-
-```
