@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition with Emotion and Summarization</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .banner {
+            background-image: url('../static/images/banner.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body style="background-color: #f5f5f5;">
+    <div class="banner">
+        <h1>Speech Recognition with <br>Emotion and Summarization</h1>
+        <p>An emotion detection tool. <br>Start by recording your voice, <br>and we will pass the speech on to our emotion analysis model.</p>
+    </div>
+    <h2 id="text" style="margin-left: 70px;">Record your voice</h2>
+    <div class="button-group">
+        <form action="/recognize" method="POST">
+            <button id="start" class="button">Record</button>
+        </form>
+    </div>
+    <div class="button-group">
+        <h2 id="text" style="margin-left: 70px;">Or see a demo</h2>
+    </div>
+    <div class="button-group">
+        <a href="/example"><button id="start" class="button">Example</button></a>
+    </div>
+
+    {% if text %}
+        <div class="button-group" style="margin-left: 70px;">
+            <p>You said: {{ text }}</p>
+        </div>
+        <div class="button-group" style="margin-left: 70px;">
+            <p>Emotion: {{ emotion }}</p>
+        </div>
+    {% endif %}
+    {% if example_text %}
+        <div class="button-group" style="margin-left: 70px;">
+            <p>Example text: {{ example_text }}</p>
+        </div>
+        <div class="button-group" style="margin-left: 70px;">
+            <p>Emotion: {{ emotion }}</p>
+        </div>
+        <div class="button-group" style="margin-left: 70px;">
+            <p>Summarized text: {{ summarized_text }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
