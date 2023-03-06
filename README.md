@@ -1,4 +1,4 @@
-# Speech Recognition with Emotion Summarization API
+# Speech Recognition with Emotion and Summarization API
 
 ## Overview
 * Detected aggressive behavior from speech and summarize the content to provide unbiased information 
