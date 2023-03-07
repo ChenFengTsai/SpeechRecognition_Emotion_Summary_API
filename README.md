@@ -23,6 +23,12 @@ git clone https://github.com/ChenFengTsai/Speech_Emotion_Summary_API.git
 ```
 python wsgi.py
 ```
+## Demo
+### Speech Recognition with Emotion Detection
+![alt text](./Speech_recog/Speech_recognition.jpg)
+
+### Speech Recognition with Content Summarization
+![alt text](./Speech_recog/summarization_example.jpg)
 
 ## Potential Future Usage
 * More real-world context for generativeAI to learn (scientists concern that good learning written material is going to be depleted in near future, how we can solve this problem?)
